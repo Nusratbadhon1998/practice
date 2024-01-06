@@ -103,3 +103,34 @@ height: 580px;
 .section1 .section-content h3{
     margin-bottom: 40px;
 }
+
+
+/* new section background image */
+.bg-img{
+    background-image: url("../images/watch.png");
+    width: 100%;
+    height:300px;
+}
+.child{
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+    background-image: url("../images/gradient1.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left:64px;
+    padding-top: 60px;
+}
+.child .bg-title{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+width:400px;
+margin-bottom:20px
+}
+
+.child .primary-btn{
+    background-color: white;
+    color:#F15B22;
+    font-weight: bold;
+}
+
