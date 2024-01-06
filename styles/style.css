@@ -3,52 +3,103 @@
     padding: 0;
 }
 
-.content{
-    width:75%;
+.container {
+    width: 75%;
     max-width: 1140px;
+    /* border: 4px solid black; */
+    margin-left: 228px;
+    margin-right: 228px;
+    /* margin-bottom: 30px; */
 }
 
-.banner{
-    display:flex;
+.banner {
+    display: flex;
     justify-content: start;
 }
 
-.banner .banner-img >img{
+.banner .banner-img>img {
 
     width: 259%;
     height: 600px
-
 }
 
-.banner-content{
-    width:45%;
+.banner-content {
+    width: 45%;
     text-align: right;
-    padding:200px;
+    padding: 200px;
 }
 
-.banner-title{
-    color:  #151414;
-font-family: Work Sans;
-font-size: 62px;
-font-weight: 700;
+.banner-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 62px;
+    font-weight: 700;
 }
-.banner-para{
-    color:  #444343;
-text-align: right;
+
+.banner-para {
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 494px;
+}
+
+.primary-btn {
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: white;
+    border: 0px;
+    /* padding:5px; */
+}
+
+.banner * {
+    margin-bottom: 25px;
+}
+
+/* Section1 start here */
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1-content{
+    width:288px;
+    padding-right: 180px;
+}
+.content-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.content-para{
+    color: var(--Dark-02, #444343);
 font-family: Work Sans;
 font-size: 16px;
 font-weight: 400;
-width:494px;
+margin:20px 0px;
 }
-.primary-btn{
-    width: 160px;
-height: 60px;
-border-radius: 5px;
-background: #F15B22;
-color:white;
-border:0px;
-/* padding:5px; */
+
+.content-list ul li{
+    color: var(--Dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+list-style-type: none;
 }
-.banner *{
-    margin-bottom: 25px;
+
+.section1-img >img{
+    width: 451px;
+height: 580px;
+/* flex-shrink: 0; */
+}
+
+.section1 .section-content h3{
+    margin-bottom: 40px;
 }
